@@ -1,0 +1,123 @@
+.drivers{
+  margin-top: 5vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(300deg, #2ec1ac, #258879, #1b7760);
+  padding-block: 3vw;
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.2);
+  width: 85%;
+  height: auto;
+  margin-inline: auto;
+  border-radius: 15px;
+}
+
+.drivers .header{
+  font-size: 3vw;
+  color: #f1f1f1;
+  text-align: center;
+}
+
+.drivers .body {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 4vw;
+  margin-top: 3vw;
+}
+
+.drivers .body img {
+  width: 25vw;
+  height: 30vw;
+  object-fit: cover;
+  border-radius: 25px;
+}
+
+.drivers .body .texts {
+  width: 40vw;
+}
+
+.drivers .body .texts ul{
+  display: flex;
+  flex-direction: column;
+  gap: 1.5vw;
+}
+
+.drivers .body .texts ul li h2{
+  font-size: 1.4vw;
+  margin-block: 1vw;
+  color: #E9EFEC;
+}
+
+.drivers .body .texts ul li p{
+  font-size: 1.1vw;
+  color: #E9EFEC;
+  margin-left: 1vw;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  .drivers {
+    margin-top: 10vw;
+    padding-block: 5vw;
+    width: 95%;
+    border-radius: 10px;
+  }
+
+  .drivers .header {
+    font-size: 1.7rem;
+    margin-top: 1.5vh;
+    margin-bottom: 2vh;
+    text-align: center;
+  }
+
+  .drivers .body {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+    margin-top: 3vw;
+    align-items: center;
+  }
+
+  .drivers .body img {
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+  }
+
+  .drivers .body .texts {
+    width: 100%;
+    text-align: center;
+  }
+
+  .drivers .body .texts ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2vw;
+    padding: 0;
+  }
+
+  .drivers .body .texts ul li {
+    width: 100%;
+  }
+
+  .drivers .body .texts ul li h2 {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+    margin-block: 1.5vw;
+  }
+
+  .drivers .body .texts ul li p {
+    font-size: 1rem;
+    line-height: 1.2rem;
+    font-weight: 500;
+    width: 80%;
+    text-align: center;
+    margin: 0 auto;
+  }
+}

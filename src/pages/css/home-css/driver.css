@@ -1,0 +1,112 @@
+.DriversSectionForHome {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(335deg, #22776acd, #1f886e);
+    justify-content: center;
+    align-items: center;
+    margin-top: 10vh;
+    width: 70%;
+    height: auto;
+    margin-inline: auto;
+    border-radius: 20px;
+    padding: 3rem;
+    box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .DriversSectionForHome img {
+    width: 30vw;
+    height: 30vw;
+    object-fit: cover;
+    border-radius: 25px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    margin: 0 2rem;
+  }
+  
+  .DriversSectionForHome .texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    text-align: center;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.DriversSectionForHome .texts h1 {
+    font-size: 2.6vw;
+    letter-spacing: 1.2px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 1.5rem;
+}
+
+.DriversSectionForHome .texts p {
+    font-size: 1.2vw;
+    text-align: center;
+    width: 100%;
+    line-height: 1.8;
+    margin: 1rem 0;
+}
+
+.Hometo-drive-page {
+    text-align: center;
+    display: inline-block;
+    border-radius: 25px;
+    font-size: 2.5vh;
+    padding: 2vh 3vh;
+    color: #2EC1AC;
+    background-color: #ffffff;
+    transition: all 0.3s ease-in-out;
+    margin-top: 2rem; 
+    margin-left: 0;
+    width: auto;
+}
+
+.Hometo-drive-page:hover {
+    opacity: 0.7;
+}
+  
+  @media only screen and (max-width: 768px) {
+    .DriversSectionForHome {
+      flex-direction: column;
+      margin-top: 5vh;
+      width: 95%;
+      padding: 1.5rem;
+      border-radius: 15px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+  
+    .DriversSectionForHome img {
+      width: 95%;
+      height: auto;
+      border-radius: 15px;
+      margin: 1.5rem auto;
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+  
+    .DriversSectionForHome .texts {
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .DriversSectionForHome .texts h1 {
+      font-size: 1.7rem;
+      margin: 0 auto;
+      text-align: center;
+    }
+  
+    .DriversSectionForHome .texts p {
+      font-size: 4vw;
+      margin-left: auto;
+      line-height: 6vw;
+      width: 100%;
+      margin-top: 1.5rem;
+    }
+  
+    .Hometo-drive-page {
+      font-size: 1.2rem;
+      margin: 1rem auto 0;
+    }
+  }
+  

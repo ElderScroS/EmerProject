@@ -1,0 +1,83 @@
+.download-driver-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 5vh;
+  background: linear-gradient(to left, #2ec1ac, #ffffff);
+  box-shadow: 4px 6px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  flex-wrap: wrap;
+  width: 75%;
+  margin-inline: auto; 
+}
+
+.left {
+  flex: 1;
+  margin: auto;
+  text-align: left;
+  max-width: 40vw;
+}
+
+.left h1 {
+  font-size: 2.7vw;
+  color: #000000e2;
+  margin-bottom: 1rem;
+}
+
+.left h2 {
+  color: #333;
+  font-size: 1.7vw;
+  margin-bottom: 4vh;
+}
+
+.left a {
+  margin-right: 1rem;
+}
+.left a img {
+  max-width: 70%;
+}
+
+.app {
+  width: 28%; 
+  height: auto; 
+  margin: auto;
+}
+
+@media (max-width: 768px) {
+  .download-driver-section {
+    flex-direction: column;
+    width: 90%;
+  }
+
+  .left {
+    padding-top: 3vh;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .left h1 {
+    font-size: 1.7rem;
+  }
+
+  .left h2 {
+    font-size: 1.3rem;
+  }
+
+  .left a img {
+    max-width: 80%;
+  }
+
+  .app {
+    width: 100%;
+  }
+}
+
+@media (max-width: 468px) {
+  .download-driver-section {
+    flex-direction: column;
+    width: 97%;
+  }
+
+
+}
+

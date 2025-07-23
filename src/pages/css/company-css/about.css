@@ -1,0 +1,97 @@
+.aboutCompany {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.aboutCompany .header {
+  margin: 7vh;
+  font-weight: 600;
+  font-size: 3vw;
+  text-align: center;
+  color: #2ec1ac;
+}
+
+.aboutCompany .aboutCompanyP {
+  color: #343131;
+  text-align: center;
+  font-size: 2vw;
+  width: 80vw;
+}
+
+.aboutCompany .goals {
+  display: flex;
+  flex-direction: row;
+  gap: 8vw;
+  margin-top: 5vw;
+}
+
+.aboutCompany .goals img {
+  width: auto;
+  height: 25vw;
+  border-radius: 25px;
+}
+
+.aboutCompany .goals .texts {
+  width: 30vw;
+  text-align: left;
+  margin: auto;
+}
+
+.aboutCompany .goals .texts h1 {
+  font-size: 2.5vw;
+  color: #2ec1ac;
+}
+
+.aboutCompany .goals .texts p {
+  margin-top: 1vw;
+  font-size: 1.5vw;
+}
+
+@media screen and (max-width: 768px) {
+  .aboutCompany .header {
+    font-size: 2rem;
+    font-weight: 650;
+    margin-top: 4vh;
+    margin-bottom: 2vh;
+  }
+
+  .aboutCompany .aboutCompanyP {
+    font-size: 1.1rem;
+    margin-bottom: 3vh;
+    width: 80vw;
+    text-align: center;
+    margin-top: 1vh;
+  }
+
+  .aboutCompany .goals {
+    flex-direction: column;
+    gap: 5vw;
+    margin: 0 1vh;
+  }
+
+  .aboutCompany .goals img {
+    width: 35vh;
+    height: 25vh;
+    margin: auto;
+    border-radius: 25px;
+  }
+
+  .aboutCompany .goals .texts {
+    width: 100%;
+    text-align: center;
+  }
+
+  .aboutCompany .goals .texts h1 {
+    margin-bottom: 1vh;
+    font-size: 1.7rem;
+    font-weight: 600;
+  }
+
+  .aboutCompany .goals .texts p {
+    font-size: 1.1rem;
+    width: 70%;
+    margin-top: 3vw;
+    margin: auto;
+  }
+}

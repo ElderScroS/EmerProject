@@ -1,0 +1,207 @@
+{
+  "navbar": {
+    "company": "Company",
+    "support": "Support",
+    "signUp": "Sign up",
+    "beAdriver": "Become a driver",
+    "addFleet": "Add your fleet"
+  },
+  "footer": {
+    "company": "Company",
+    "contact": "Contact",
+    "services": "Services",
+    "downloadEmer": "Download Emer",
+    "downloadEmerDriver": "Download Emer Drive",
+    "termsConditions": "Terms and Conditions",
+    "privacyPolicy": "Privacy Policy",
+    "helpSupport": "Help and Support",
+    "acceptedPayments": "We accept:",
+    "allRightsReserved": "All rights reserved"
+  },
+
+
+  "homePage": {
+    "hero": {
+      "title": "Emer is at your service",
+      "description": "Easily place an order through our mobile app. Plan your trip now and save time.",
+      "downloadButton": "Download Now"
+    },
+    "services": {
+      "header": "Our City Services",
+      "header2": "Our Rides",
+      "description": "If you’re looking for fast and comfortable travel around the city, you’re at the right place! With our mobile app, ordering a taxi is easy. Use a simple interface to quickly call a nearby driver.",
+      "downloadButton": "Download Now"
+    },
+    "tariffs": {
+      "header": "Tariffs",
+      "price": "Starting price: ",
+      "econom": "Econom",
+      "economDesc": "Convenient rides at affordable prices.",
+      "emer": "Emer",
+      "emerDesc": "Cars branded with our company name.",
+      "comfort": "Comfort",
+      "comfortDesc": "Enhanced comfort for your ride.",
+      "comfortPlus": "Comfort+",
+      "comfortPlusDesc": "Even more space and convenience for your comfort.",
+      "electroComfort": "Electro Comfort+",
+      "electroComfortDesc": "Eco-friendly rides in premium electric vehicles.",
+      "minivan": "Minivan",
+      "minivanDesc": "Comfortable rides for large groups and luggage.",
+      "business": "Business",
+      "businessDesc": "Premium business-class cars.",
+      "delivery": "Delivery",
+      "deliveryDesc": "For all your delivery needs.",
+      "cityToCity": "City to City",
+      "cityToCityDesc": "Convenient intercity rides.",
+      "towTruck": "Tow Truck",
+      "towTruckDesc": "Need a tow truck? We're here for you.",
+      "soberDriver": "Sober Driver",
+      "soberDriverDesc": "A safe way home after a party."
+    },
+    "drivers": {
+      "title": "Join as a Driver",
+      "description": "If you want a flexible work schedule and a high income, join us! We offer excellent opportunities for career growth and development.",
+      "button": "Join Now"
+    }
+  },
+  "driverPage": {
+    "hero": {
+      "title": "Download Emer Drive",
+      "description": "Download our app to earn easy income and work with a flexible schedule!"
+    },
+    "info": {
+      "title": "Why do they choose us?",
+      "description1": "Choose the work hours that suit you. Total freedom of your schedule!",
+      "description2": "To get started, simply fill out a short form and upload the required documents."
+    },
+    "downloadApp": {
+      "title": "Download the Emer Drive app",
+      "description": "Download our Emer Drive app to your smartphone and order a taxi.",
+      "playMarketAlt": "Get it on Google Play",
+      "appStoreAlt": "Download on the App Store"
+    },
+    "features": {
+      "title1": "Easy Download",
+      "title2": "Flexible Working Hours",
+      "title3": "Secure Registration",
+      "description1": "Download the app in just a few seconds and start using it immediately. No complications!",
+      "description2": "Work whenever you want. Easily adjust your working hours and have the opportunity to work flexibly.",
+      "description3": "Complete your registration with a simple questionnaire form and document submission process. Reliable and fast."
+    }
+  },
+  "companyPage": {
+    "hero": {
+      "title": "Meet Emer",
+      "description": "Emer offers exceptional services to customers in the city",
+      "card1": "Drivers",
+      "card2": "Cities",
+      "card3": "Users"
+    },
+    "about": {
+      "header1": "About the Company",
+      "header2": "Mission and Purpose",
+      "description1": "Our company was founded with the goal of providing high-quality and reliable transportation services to our clients. We focus on ensuring maximum comfort and safety on every trip. We continuously improve, implementing innovative solutions and maintaining a high level of service throughout the entire collaboration.",
+      "description2": "Our mission is to provide safe, comfortable, and affordable transportation to our clients. We guarantee high-quality service, making each trip convenient and reliable, with a focus on meeting our clients' needs."
+    },
+    "preferences": {
+      "header": "Our Advantages",
+      "title1": "Interactive and Convenient Mobile App",
+      "title2": "24/7 Service",
+      "title3": "Clean and Comfortable Vehicles",
+      "title4": "High Customer Satisfaction and Support",
+      "description1": "Our mobile app is designed with the utmost focus on customer convenience, allowing easy booking and real-time tracking of your ride.",
+      "description2": "Our taxi service operates around the clock, every day of the week, ensuring that you can rely on us whenever you need a ride.",
+      "description3": "Our company ensures the comfort and satisfaction of our customers by providing reliable service and top-notch vehicles for every trip.",
+      "description4": "Customer satisfaction is not just a priority for us, it's the foundation of everything we do, ensuring every ride meets your expectations."
+    },
+    "drivers": {
+      "header": "About Our Drivers",
+      "title1": "1. Professional and Experienced Drivers",
+      "title2": "2. Local Experts with Extensive City Knowledge",
+      "title3": "3. Courtesy and Customer-Centered Service",
+      "description1": "Our company works with professional drivers, offering top-quality service.",
+      "description2": "Our drivers know the city well, ensuring a fast and comfortable ride.",
+      "description3": "Our drivers are courteous and focused on customer comfort."
+    },
+    "info": {
+      "header": "Contact Us",
+      "title1": "Contact Number",
+      "title2": "Email",
+      "title3": "Location",
+      "description3": "AF city, 28 May avenue.",
+      "button": "Often Asked Questions"
+    }
+  },
+  "supportPage": {
+    "hero": {
+      "header": "Do you have a problem?",
+      "placeholder": "How can we help?",
+      "sendBtn": "Send"
+    },
+    "help": {
+      "header1": "For Drivers",
+      "header2": "For Customers",
+      "header3": "For Business Owners"
+    },
+    "drivers": {
+      "header": "Join as a Driver",
+      "description": "By working with us, you can set your own work schedule, earn additional income, and enjoy an independent work life by working at a time convenient for you.",
+      "button": "Become a Driver"
+    }
+  },
+  "fleetPage": {
+    "hero": {
+      "text": {
+        "header": "How does registration work?",
+        "step1": "Fill out and submit the form.",
+        "step2": "Our managers will send you an email.",
+        "step3": "Follow the link sent by email, log into your account, and start using the control panel."
+      },
+      "registration": {
+        "emailLabel": "Email",
+        "emailPlaceholder": "Enter your email address",
+        "phoneLabel": "Phone number",
+        "phonePlaceholder": "Mobile number",
+        "vehicleCountLabel": "Number of vehicles in the fleet",
+        "submitButton": "Continue",
+        "existingAccount": "Do you have an account?",
+        "loginLink": "Log in",
+        "termsStart": "By registering, you agree to our",
+        "privacyPolicy": "Privacy Policy",
+        "successTitle": "Your form has been submitted!",
+        "successDescription": "We will contact you within 24 hours.",
+        "errorTitle": "Oops... Something went wrong :(",
+        "errorDescription": "Please try again."
+      }
+    }
+  },
+
+  
+  "cookies": {
+    "cookieMessage": "This website uses cookies to enhance user experience and improve the efficiency of the website. By continuing to use the site, you consent to the processing of your personal data.",
+    "agree": "Agree"
+  },
+  "oftenUsed": {
+    "qrModal": {
+      "title": "Download the Emer App",
+      "description": "Scan the QR code with your phone’s camera and download the app."
+    },
+    "downloadApp": {
+      "title": "Download the Emer App",
+      "description": "Download our Emer app on your smartphone and order a taxi.",
+      "playMarketAlt": "Get it on Google Play",
+      "appStoreAlt": "Download on the App Store"
+    },
+    "contact": {
+      "title": "Complaints and Suggestions",
+      "emailPlaceholder": "Enter your email address",
+      "phonePlaceholder": "Enter your phone number",
+      "messagePlaceholder": "Enter your message",
+      "submitButton": "Submit",
+      "thanks": "Thank you for your message!",
+      "247": "We will respond to your email within 24 hours.",
+      "wrong": "Oops...Something went wrong :(",
+      "try": "Please try again."
+    }
+  }
+}

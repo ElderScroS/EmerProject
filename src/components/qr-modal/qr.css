@@ -1,0 +1,109 @@
+.qr-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 47vh;
+    background: #f6f6f6;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    z-index: 1000;
+    opacity: 0; 
+    transition: all 0.5s ease;
+}
+
+.qr-modal.opening {
+    transform: translate(-50%, -50%) scale(1);
+    opacity: 1;
+}
+
+.qr-modal.closing {
+    transform: translate(-50%, -50%) scale(0); 
+    opacity: 0;
+}
+
+.qr-modal canvas {
+    width: auto;
+    height: 60vh;
+    display: block;
+    margin: 2vh auto;
+}
+
+.modal-text {
+    text-align: center;
+    margin: 3vh;
+}
+
+.store-button {
+    background-color: #27a08e;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 1.5vh 3vh;
+    font-size: 1.4vw;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.1s ease;
+}
+
+.store-button:hover {
+    background-color: #1e8c7b;
+}
+
+.store-button:active {
+    transform: scale(0.95);
+}
+
+/* QR-код анимация */
+.qr-code-wrapper {
+    transition: opacity 0.3s ease;
+    opacity: 1;
+}
+
+.qr-code-wrapper.switching {
+    opacity: 0;
+}
+
+.qr-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0);
+    z-index: 999;
+    transition: background 0.5s ease;
+}
+
+.qr-modal-overlay.opening {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.qr-modal-overlay.closing {
+    background: rgba(0, 0, 0, 0);
+}
+
+body.qr-modal-open {
+    overflow: hidden;
+}
+
+
+@media (max-width: 768px) {
+    .qr-modal {
+        max-width: 100vw;
+    }
+
+    .qr-modal canvas {
+        width: auto;
+        height: 35vh;
+        padding: 1vh;
+    }
+
+    .modal-text h2 {
+        font-size: 1.3rem;
+    }
+
+    .modal-text p {
+        font-size: 1rem;
+    }
+}

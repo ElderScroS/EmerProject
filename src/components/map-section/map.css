@@ -1,0 +1,18 @@
+.map-container {
+    background-color: #f8f9fa;
+    margin: 6rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .map-iframe {
+    border: 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .map-container {
+      margin: 6vh 1vh;
+    }
+}

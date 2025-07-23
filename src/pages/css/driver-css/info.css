@@ -1,0 +1,50 @@
+.info-section {
+  text-align: center;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  padding: 2.5rem 0; 
+}
+
+.info-section h2 {
+  font-size: 2.5vw;
+  font-weight: 600;
+  margin-top: 5vh;
+  margin-bottom: 2vh;
+  color: #1e1d1d; 
+}
+
+.info-section p {
+  font-size: 2vh;
+  max-width: 800px;
+  margin: 0 auto 1rem;
+  line-height: 1;
+  color: #333;
+}
+
+@media (max-width: 768px) {
+  .info-section {
+    max-width: 90%;
+    padding: 0; 
+    margin: 0 auto;
+  }
+
+  .info-section h2 {
+    font-size: 1.7rem; 
+    margin-bottom: 1rem;
+  }
+
+  .info-section p {
+    font-size: 1rem;
+    line-height: 1.4;
+  }
+}
+
+
+@media (max-width: 468px) {
+  .info-section {
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}

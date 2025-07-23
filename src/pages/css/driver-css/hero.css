@@ -1,0 +1,152 @@
+.hero-section {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 90vh;
+  background-image: url("/src/assets/img/driver/driverhero.webp");
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  overflow: hidden;
+}
+
+.hero-section .background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 65%;
+  margin: auto;
+}
+
+.text-content {
+  max-width: 50%;
+  margin-top: 3vw;
+  text-align: left;
+}
+
+.text-content h1 {
+  font-size: clamp(2.3rem, 2.7vw, 3.7rem); 
+  line-height: 1.4;
+  margin-bottom: auto;
+}
+
+.text-content p {
+  font-size: clamp(1.2rem, 1.7vw, 1.5rem);  
+  line-height: 1.4;
+  margin-bottom: 4vh;
+}
+
+.image-content {
+  display: flex;
+  justify-content: center;
+}
+
+.image-content canvas {
+  width: auto;
+  height: 45vh;
+  margin-top: 2rem;
+}
+
+.hero-content a {
+  margin-right: 1rem;
+}
+.hero-content a img {
+  width: 14vh;
+}
+
+
+@media (max-width: 1024px) {
+  .hero-content {
+    width: 85%;
+    gap: 2rem;
+  }
+
+  .text-content h1 {
+    margin-bottom: 0.7rem;
+    font-size: clamp(2.5rem, 3vw, 4.5rem);  
+  }
+
+  .text-content p {
+    margin-bottom: 0;
+    font-size: clamp(1.4rem, 2vw, 1.6rem);  
+  }
+
+  .qr-code {
+    height: 65vh;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .hero-content {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+  }
+
+  .text-content {
+    max-width: 80%;
+    text-align: center;
+    margin-top: 7rem;
+  }
+
+  .text-content h1 {
+    font-size: clamp(2.2rem, 3vw, 3.2rem);  
+  }
+
+  .text-content p {
+    margin-bottom: 4vh;
+    font-size: clamp(1.4rem, 2vw, 1.6rem);  
+  }
+
+  .hero-content .playmarket-hero {
+    margin-left: 2vh;
+  }
+
+  .qr-code {
+    margin: 1vh;
+    height: 35vh;
+  }
+}
+
+@media (max-width: 468px) {
+  .text-content {
+    max-width: 100%;
+    text-align: center;
+    margin-top: 5rem;
+  }
+
+  .text-content h1 {
+    font-size: clamp(1.8rem, 2.5vw, 2.4rem);  
+  }
+
+  .text-content p {
+    margin-bottom: 4vh;
+    font-size: clamp(1.1rem, 1.3vw, 1.3rem);  
+  }
+
+  .hero-content .playmarket-hero {
+    margin-left: 3vh;
+  }
+
+  .qr-code {
+    margin: auto;
+    height: 30vh;
+  }
+}

@@ -1,0 +1,77 @@
+.driver-or-customer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  width: 100%;
+}
+
+.driver-or-customer .cards {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: auto;
+  gap: 3vw;
+  justify-content: center;
+}
+
+.driver-or-customer .cards .card:nth-child(3) {
+  grid-column: 1 / span 2;
+  justify-self: center;
+}
+
+.driver-or-customer .cards .card {
+  height: 14vw;
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 15px;
+  border: 1.5px solid #2EC1AC;
+  transition-duration: 0.2s;
+}
+
+.driver-or-customer .cards .card:hover {
+  cursor: pointer;
+  transform: scale(1.02);
+  background-color: #2EC1AC;
+  color: #f1f1f1;
+  transition-duration: 0.2s;
+}
+
+.driver-or-customer .cards .card h1 {
+  color: #2EC1AC;
+  font-weight: 400;
+  font-size: 2vw;
+}
+
+.driver-or-customer .cards .card:hover h1 {
+  color: #f1f1ff;
+}
+
+@media (max-width: 768px) {
+  .driver-or-customer {
+    height: 65vh;
+  }
+
+  .driver-or-customer .cards {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 5vw;
+  }
+
+  .driver-or-customer .cards .card:nth-child(3) {
+    grid-column: 1;
+    justify-self: center;
+  }
+
+  .driver-or-customer .cards .card {
+    height: 35vw;
+    width: 85vw;
+  }
+
+  .driver-or-customer .cards .card h1 {
+    font-size: 1.5rem;
+  }
+}
+

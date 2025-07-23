@@ -1,0 +1,142 @@
+.TariffsSection {
+  display: flex;
+  flex-direction: column;
+  user-select: none;
+}
+
+.TariffsSection .header {
+  color: #333;
+  font-size: 3vw;
+  font-weight: 600;
+  margin: 7vh auto;
+}
+
+.TariffsSection .cards {
+  display: flex;
+  justify-content: center;
+  width: 98%;
+  margin-inline: auto;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+
+.TariffsSection .cards ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 3vh;
+  justify-content: center;
+  position: relative;
+}
+
+.TariffsSection .cards ul li {
+  margin-block: 10px;
+}
+
+.TariffsSection .cards ul li:nth-last-child(-n+3) {
+  transform: translateX(20vh); 
+}
+
+.TariffsSection .cards .card {
+  border-radius: 15px;
+  background-color: #fff;
+  width: 20vw;
+  height: 21vw;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  position: relative;
+}
+
+.TariffsSection .cards .card:hover {
+  cursor: pointer;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  transform: translateY(-5px);
+}
+
+.icon {
+  width: auto;
+  height: 30%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.TariffsSection .cards .card h1 {
+  font-size: 1.6vw;
+  text-align: center;
+  color: #2ec1ac;
+  margin-top: 1rem;
+}
+
+.desc {
+  font-size: 1.2vw;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #343131;
+}
+
+.price { 
+  font-size: 1vw;
+  text-align: center;
+  margin-bottom: 1rem;
+  color: #5b5555b2;
+}
+
+@media (max-width: 768px) {
+  .TariffsSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .TariffsSection .header {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 5vh auto;
+  }
+
+  .TariffsSection .cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .TariffsSection .cards ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+
+  .TariffsSection .cards ul li:nth-last-child(-n+3) {
+    transform: translateX(0);
+  }
+
+  .TariffsSection .cards .card {
+    width: 80vw;
+    height: auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .icon {
+    width: 70%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 1.5rem;
+  }
+
+  .TariffsSection .cards .card h1 {
+    font-size: 1.8rem;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+  }
+
+  .TariffsSection .cards .card p {
+    font-size: 1rem;
+    text-align: center;
+    margin-top: 1rem;
+  }
+}

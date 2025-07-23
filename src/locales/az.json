@@ -1,0 +1,207 @@
+{
+  "navbar": {
+    "company": "Şirkət",
+    "support": "Dəstək",
+    "signUp": "Qeydiyyatdan keç",
+    "beAdriver": "Sürücü olun",
+    "addFleet": "Avtoparkınızı əlavə edin"
+  },
+  "footer": {
+    "company": "Şirkət",
+    "contact": "Əlaqə",
+    "services": "Xidmətlər",
+    "downloadEmer": "Emer yüklə",
+    "downloadEmerDriver": "Emer Drive yüklə",
+    "termsConditions": "Şərtlər və Qaydalar",
+    "privacyPolicy": "Gizlilik Siyasəti",
+    "helpSupport": "Yardım və Dəstək",
+    "acceptedPayments": "Biz qəbul edirik:",
+    "allRightsReserved": "Bütün hüquqlar qorunur"
+  },
+
+
+  "homePage": {
+    "hero": {
+      "title": "Emer xidmətinizdədir",
+      "description": "Mobil tətbiqimiz vasitəsilə asanlıqla sifariş verin. Gedişinizi indi planlayın və vaxtınıza qənaət edin.",
+      "downloadButton": "İndi yükləyin"
+    },
+    "services": {
+      "header": "Şəhərdaxili xidmətimiz",
+      "header2": "Bizim gedişlərimiz",
+      "description": "Şəhərdə sürətli və rahat yolçuluq axtarırsınızsa, doğru yerdəsiniz! Mobil tətbiqimizlə taksi sifariş etmək asandır. Sadə interfeys və sürətli sifarişlə yaxınlıqdakı sürücülərdən birini çağırın.",
+      "downloadButton": "İndi yükləyin"
+    },
+    "tariffs": {
+      "header": "Tariflər",
+      "price": "Başlanğıc qiymət: ",
+      "econom": "Ekonom",
+      "economDesc": "Rahat və sərfəli qiymətlərlə səyahətlər.",
+      "emer": "Emer",
+      "emerDesc": "Şirkətimizin adını daşıyan avtomobillər.",
+      "comfort": "Komfort",
+      "comfortDesc": "Səyahətiniz üçün artırılmış rahatlıq.",
+      "comfortPlus": "Komfort+",
+      "comfortPlusDesc": "Daha çox rahatlıq və genişlik üçün.",
+      "electroComfort": "Elektro Komfort+",
+      "electroComfortDesc": "Premium elektrik avtomobillərində ekoloji səyahətlər.",
+      "minivan": "Minivan",
+      "minivanDesc": "Böyük qruplar və baqaj üçün rahat səyahətlər.",
+      "business": "Biznes",
+      "businessDesc": "Premium biznes sinif avtomobilləri.",
+      "delivery": "Çatdırılma",
+      "deliveryDesc": "Bütün çatdırılma ehtiyaclarınız üçün.",
+      "cityToCity": "Şəhərdən şəhərə",
+      "cityToCityDesc": "Şəhərdən şəhərə rahat səyahətlər.",
+      "towTruck": "Evakuator",
+      "towTruckDesc": "Evakuatora ehtiyacınız var? Biz buradayıq.",
+      "soberDriver": "Ayıq sürücü",
+      "soberDriverDesc": "Partidən sonra evə təhlükəsiz yol."
+    },
+    "drivers": {
+      "title": "Sürücü olaraq qoşulun",
+      "description": "Əgər elastik iş qrafiki və yüksək gəlir istəyirsinizsə, bizə qoşulun! Biz karyera inkişafı və böyümə üçün mükəmməl imkanlar təklif edirik.",
+      "button": "İndi qoşulun"
+    }
+  },
+  "driverPage": {
+    "hero": {
+      "title": "Emer Drive'ı Yükləyin",
+      "description": "Rahat qazanc əldə etmək üçün bizim tətbiqimizi yükləyin və sərbəst qrafiklə işləyin!"
+    },
+    "info": {
+      "title": "Niyə bizi seçirlər?",
+      "description1": "Sizə uyğun iş saatlarını seçin. Cədvəliniz tamamilə azaddır!",
+      "description2": "Başlamaq üçün sadəcə qısa bir form doldurun və lazım olan sənədləri yükləyin."
+    },
+    "downloadApp": {
+      "title": "Emer Drive'ı yükləyin",
+      "description": "Smartfonunuzda Emer Drive tətbiqimizi yükləyib qeydiyyatdan keçə bilərsiniz.",
+      "playMarketAlt": "Google Play-də əldə edin",
+      "appStoreAlt": "App Store-da yükləyin"
+    },
+    "features": {
+      "title1": "Asan Yükləmə",
+      "title2": "Sərbəst İş Qrafiki",
+      "title3": "Güvənli Qeydiyyat",
+      "description1": "Proqramı bir neçə saniyə ərzində yükləyin və dərhal istifadə etməyə başlayın. Hər hansı bir mürəkkəblik yoxdur!",
+      "description2": "İstədiyiniz vaxt işləyin. Rahatlıqla iş saatlarını tənzimləyin və sərbəst çalışma imkanına sahib olun.",
+      "description3": "Sadə sorğu forması və sənəd təqdim etmə prosesi ilə qeydiyyatınızı tamamlayın. Etibarlı və sürətli."
+    }
+  },
+  "companyPage": {
+    "hero": {
+      "title": "Emer'lə tanış olun",
+      "description": "Emer şəhərində müştərilər üçün müstəsna xidmətlər təqdim edir",
+      "card1": "Sürücülər",
+      "card2": "Şəhərlər",
+      "card3": "İstifadəçilər"
+    },
+    "about": {
+      "header1": "Şirkət haqqında",
+      "header2": "Missiya və Məqsəd",
+      "description1": "Şirkətimiz müştərilərimizə yüksək keyfiyyətli və etibarlı nəqliyyat xidmətləri göstərmək məqsədilə təsis edilib. Hər səyahətdə maksimum komfort və təhlükəsizlik təmin etməyə yönəlirik. Daim inkişaf edirik, innovativ həllər tətbiq edərək və əməkdaşlıq boyunca yüksək xidmət səviyyəsi təmin edirik.",
+      "description2": "Bizim missiyamız müştərilərimizə təhlükəsiz, komfortlu və əlverişli nəqliyyat təmin etməkdir. Hər səyahəti rahat və etibarlı edərək yüksək xidmət keyfiyyətini təmin edirik, müştərilərimizin ehtiyaclarını qarşılamağa fokuslanırıq."
+    },
+    "preferences": {
+      "header": "Üstünlüklərimiz",
+      "title1": "İnteraktiv və Rahat Mobil Tətbiq",
+      "title2": "24/7 Xidmət",
+      "title3": "Təmiz və Komfortlu Avtomobillər",
+      "title4": "Yüksək Müştəri Məmnuniyyəti və Dəstək",
+      "description1": "Mobil tətbiqimiz müştəri rahatlığına tam diqqət yetirilərək hazırlanmışdır, sizə rahat bir şəkildə sifariş vermək və səyahətinizi real vaxtda izləmək imkanı verir.",
+      "description2": "Taksi xidmətimiz həftənin hər günü, günün hər saatında fəaliyyət göstərir, bu da sizə lazım olan zaman bizə güvənməyinizi təmin edir.",
+      "description3": "Şirkətimiz müştərilərinin komfortu və məmnuniyyətini təmin edir, hər bir səyahət üçün etibarlı xidmət və yüksək keyfiyyətli avtomobillər təqdim edir.",
+      "description4": "Müştəri məmnuniyyəti bizim üçün yalnız prioritet deyil, bizə etdiyimiz hər şeyin təməlini qoyur və hər bir səyahətin gözləntilərinizi qarşıladığını təmin edir."
+    },
+    "drivers": {
+      "header": "Sürücülərimiz haqqında",
+      "title1": "1. Peşəkar və Təcrübəli Sürücülər",
+      "title2": "2. Şəhəri Yaxşı Tanıyan Yerli Ekspertlər",
+      "title3": "3. Nəzakət və Müştəri Yönümlü Xidmət",
+      "description1": "Şirkətimiz yalnız peşəkar sürücülərlə çalışır, müştərilərimizə yüksək xidmət təqdim edir.",
+      "description2": "Sürücülərimiz şəhərin hər guşəsini yaxşı tanıyır, sürət və rahatlıq təmin edir.",
+      "description3": "Sürücülərimiz nəzakətlidir, müştərilərimizin rahatlığına önəm verir."
+    },
+    "info": {
+      "header": "Bizimlə əlaqə",
+      "title1": "Əlaqə nömrəsi",
+      "title2": "E-poçt",
+      "title3": "Məkan",
+      "description3": "Af city, 28 May avenue.",
+      "button": "Tez-tez verilən suallar"
+    }
+  },
+  "supportPage": {
+    "hero": {
+      "header": "Nəsə probleminiz var ?",
+      "placeholder": "Necə kömək edə bilərik ?",
+      "sendBtn": "Göndərmək"
+    },
+    "help": {
+      "header1": "Sürücülər üçün",
+      "header2": "Müştərilər üçün",
+      "header3": "Sahibkarlar üçün"
+    },
+    "drivers": {
+      "header": "Sürücü olaraq qoşulun",
+      "description": "Bizimlə işləməklə siz öz iş qrafikinizi tənzimləyə, əlavə gəlir qazana və sizin üçün əlverişli olan vaxtda işləyərək müstəqil iş həyatından həzz ala bilərsiniz.",
+      "button": "Sürücü olun"
+    }
+  },
+  "fleetPage": {
+    "hero": {
+      "text": {
+        "header": "Qeydiyyat necə işləyir?",
+        "step1": "Formu doldurun və göndərin.",
+        "step2": "Menecerlərimiz sizə e-poçt göndərəcək.",
+        "step3": "E-poçtla göndərilən linkə daxil olun, hesabınıza daxil olun və idarə panelindən istifadə etməyə başlayın."
+      },
+      "registration": {
+        "emailLabel": "E-poçt",
+        "emailPlaceholder": "E-poçt ünvanınızı daxil edin",
+        "phoneLabel": "Telefon nömrəsi",
+        "phonePlaceholder": "Mobil nömrə",
+        "vehicleCountLabel": "Avtoparkdakı nəqliyyat vasitələrinin sayı",
+        "submitButton": "Davam et",
+        "existingAccount": "Hesabınız var?",
+        "loginLink": "Daxil ol",
+        "termsStart": "Qeydiyyatdan keçməklə siz bizim",
+        "privacyPolicy": "Məxfilik Siyasətimizlə razılaşırsınız",
+        "successTitle": "Formanız uğurla göndərildi!",
+        "successDescription": "24 saat ərzində sizinlə əlaqə saxlayacağıq.",
+        "errorTitle": "Təəssüf... Nəsə səhv getdi :(",
+        "errorDescription": "Zəhmət olmasa yenidən cəhd edin."
+      }
+    }
+  },
+
+  
+  "cookies": {
+    "cookieMessage": "Bu veb sayt istifadəçi təcrübəsini artırmaq və saytın effektivliyini yaxşılaşdırmaq üçün cookie-lərdən istifadə edir. Saytı istifadə etməyə davam edərək şəxsi məlumatlarınızın işlənməsinə razılıq verirsiniz.",
+    "agree": "Razıyam"
+  },
+  "oftenUsed": {
+    "downloadApp": {
+      "title": "Emer proqramını yükləyin",
+      "description": "Smartfonunuza Emer tətbiqimizi yükləyib taksi sifariş edə bilərsiniz.",
+      "playMarketAlt": "Google Play-də əldə edin",
+      "appStoreAlt": "App Store-da yükləyin"
+    },
+    "qrModal": {
+      "title": "Emer Tətbiqini yükləyin",
+      "description": "QR kodu telefonunuzun kamerası ilə skan edin və tətbiqi yükləyin."
+    },
+    "contact": {
+      "title": "Şikayət və təkliflər",
+      "emailPlaceholder": "E-poçt ünvanınızı daxil edin",
+      "phonePlaceholder": "Telefon nömrənizi daxil edin",
+      "messagePlaceholder": "Mesajınızı daxil edin",
+      "submitButton": "Göndərmək",
+      "thanks": "Mesajınız üçün təşəkkür edirik!",
+      "247": "Biz 24 saat ərzində e-poçtunuza cavab verəcəyik.",
+      "wrong": "Ups...Nəsə səhv getdi :(",
+      "try": "Zəhmət olmasa, yenidən cəhd edin."
+    }
+  }
+}

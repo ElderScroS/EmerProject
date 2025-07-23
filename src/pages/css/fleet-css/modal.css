@@ -1,0 +1,134 @@
+.modal-fleet-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0);
+  z-index: 999;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.5s ease;
+}
+
+.modal-fleet-overlay.visible {
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-fleet {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background: white;
+  border: 3px solid #2ec1ac;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 350px;
+  text-align: center;
+  z-index: 1000;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.modal-fleet.visible {
+  transform: translate(-50%, -50%) scale(1);
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-fleet-checkmark {
+  font-size: 4.5vw;
+  color: rgb(162, 162, 102);
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-fleet-error {
+  font-size: 3.5vw;
+  color: rgb(162, 162, 102);
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.success {
+  color: #333;
+  font-size: 1.1vw;
+  font: 600;
+  margin-bottom: 1vh;
+}
+.success-desc {
+  font-size: 0.9vw;
+  font: 500;
+}
+
+body.modal-open {
+  overflow: hidden;
+}
+
+.error-fleet-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0.9);
+  background: white;
+  border: 3px solid red;
+  border-radius: 10px;
+  padding: 1rem;
+  width: 350px;
+  text-align: center;
+  z-index: 1000;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.error {
+  color: #333;
+  font-size: 1.3vw;
+  padding: 0.5rem;
+  font: 600;
+}
+.error-desc {
+  font-size: 1.1vw;
+  font: 500;
+  padding: 0.2rem;
+}
+
+@media (max-width: 768px) {
+  .modal-fleet {
+      width: 80%;
+      padding: 1rem; 
+  }
+
+  .modal-fleet-checkmark {
+      font-size: 5rem;
+  }
+  .modal-fleet-error {
+    font-size: 4rem; 
+  }
+
+  .success {
+      font-size: 1.2rem;
+      font: 500;
+  }
+  .success-desc {
+      font-size: 0.95rem;
+  }
+
+  .error {
+      font-size: 1.3rem;
+      font: 500;
+  }
+  .error-desc {
+      font-size: 1rem;
+  }
+}
+

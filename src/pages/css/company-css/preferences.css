@@ -1,0 +1,101 @@
+.preferences {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; 
+  min-height: 100vh;
+}
+
+.preferences .header {
+  margin: 7vh auto;
+  font-size: 3vw;
+  color: #333;
+}
+
+.preferencesCards {
+  display: flex;
+  flex-direction: column;
+  gap: 2vw;
+  padding: 0 2vw;
+  align-items: center; 
+  justify-content: center;
+}
+
+.preferencesCards .card {
+  display: flex;
+  flex-direction: row;
+  gap: 2vw;
+  align-items: center;
+  border: 1px solid #2ec1ac;
+  padding: 1.3vw;
+  border-radius: 15px;
+  user-select: none;
+  margin-block: 0.5vw;
+  width: 70%;
+  height: auto;
+}
+
+.preferencesCards .card img {
+  width: 10vw;
+  height: 10vw;
+}
+
+.preferencesCards .card .texts {
+  display: flex;
+  flex-direction: column;
+  gap: 1vw;
+  width: 100%;
+}
+
+.preferencesCards .card .texts h1 {
+  font-size: 2vw;
+  color: #2ec1ac;
+}
+
+.preferencesCards .card .texts p {
+  font-size: 1.4vw;
+  line-height: 1.8vw;
+}
+
+@media screen and (max-width: 768px) {
+  .preferences .header {
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 6vh auto;
+  }
+
+  .preferencesCards {
+    gap: 3vw;
+    padding: 0 0.7vw;
+    align-items: center;
+    text-align: center;
+  }
+
+  .preferencesCards .card {
+    flex-direction: column;
+    align-items: center;
+    padding: 4vw;
+    width: 75%;
+  }
+
+  .preferencesCards .card img {
+    width: 25vw;
+    height: auto;
+    margin-bottom: 2vw;
+  }
+
+  .preferencesCards .card .texts {
+    width: 100%;
+    gap: 1.5vw;
+  }
+
+  .preferencesCards .card .texts h1 {
+    font-size: 1.5rem;
+    margin-bottom: 1vw;
+  }
+
+  .preferencesCards .card .texts p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
