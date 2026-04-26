@@ -1,28 +1,36 @@
-# Emer Taxi — Taxi Company Website
+# Emer Taxi - Taxi Company Website
 
-This is a responsive website developed using **React** for the taxi company **EMER Konsaltanci MMC**.
+A responsive commercial website built with React for a taxi service company.
 
-🌐 Live: [https://emer.az](https://emer.az)
+## Overview
 
----
+This project was developed and deployed as a production-ready solution for a real business.  
+The main goal was to create a fast, responsive, and multilingual landing page.
 
-## 🚀 Technologies Used
+## Features
 
-* **React**
-* **CSS**
-* **i18next** for internationalization
-  * Includes **cookie-based language detection**
-* **Responsive design** using **media queries**
+- Fully responsive layout (mobile-first)
+- Internationalization with i18next
+- Cookie-based language detection
+- Optimized UI for usability and clarity
 
----
+## Technologies
 
-## 🌍 Internationalization
+- React
+- CSS (media queries)
+- i18next
+- i18next-browser-languagedetector
 
-The site supports multiple languages using **i18next** with `i18next-browser-languagedetector`, configured to detect and remember the user's language preference using **cookies**.
+## Live Demo
 
----
+https://emer.az
 
-## 📱 Responsive Design
+## Status
 
-The layout adjusts seamlessly across various screen sizes, ensuring an optimal user experience on **mobile**, **tablet**, and **desktop** devices.
-Responsiveness is achieved via **CSS media queries** and utility classes.
+Archived - not actively maintained.
+
+## Highlights
+
+- Built for a real client
+- Used in production
+- Focused on performance and accessibility
